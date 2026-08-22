@@ -1,258 +1,330 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grand Alliance Procurement</title>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="Assets/favicon_light.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="Assets/favicon_light.png"
+      type="image/x-icon"
+    />
 
     <!-- FONT FACE LINK -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- StyleSheet Link -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/snippets.css">
-    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/snippets.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
 
     <!-- LENIS LINK -->
-    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.25/dist/lenis.css">
-
-</head>
-<body>
-
-    <header> 
-        <div class="container_fluid">
-            <div class="header-in">
-                <div class="nav-logo">
-                    <a href="#">
-                        <img src="Assets/NavLogo-v3.svg" alt="Ground Alliance Logo">
-                    </a>
-                </div>
-                <ul class="nav-links-wrap">
-                    <li class="nav-links">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="#services">Services</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="#industries">Industries</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="#why-us">Why Us</a>
-                    </li>
-                    <!-- <li class="nav-links">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.25/dist/lenis.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container_fluid">
+        <div class="header-in">
+          <div class="nav-logo">
+            <a href="#">
+              <img src="Assets/NavLogo-v3.svg" alt="Ground Alliance Logo" />
+            </a>
+          </div>
+          <ul class="nav-links-wrap">
+            <li class="nav-links">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav-links">
+              <a href="#services">Services</a>
+            </li>
+            <li class="nav-links">
+              <a href="#industries">Industries</a>
+            </li>
+            <li class="nav-links">
+              <a href="#why-us">Why Us</a>
+            </li>
+            <!-- <li class="nav-links">
                         <a href="#contact">Contact</a>
                     </li> -->
-                </ul>
-                <div class="nav-btn">
-                    <a href="#contact" class="custom_button solid">
-                        Get a quote
-                    </a>
-                </div>
-                <div class="mobile-nav-btn">
-                    <div class="mobile-nav-menu" id="navMenu_btn">
-                        <div class="menu-bar"></div>
-                        <div class="menu-bar"></div>
-                        <div class="menu-bar"></div>
-                    </div>
-                </div>
+          </ul>
+          <div class="nav-btn">
+            <a href="#contact" class="custom_button solid"> Get a quote </a>
+          </div>
+          <div class="mobile-nav-btn">
+            <div class="mobile-nav-menu" id="navMenu_btn">
+              <div class="menu-bar"></div>
+              <div class="menu-bar"></div>
+              <div class="menu-bar"></div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="mobileNav_container" id="mobileNav-container">
-            <div class="fade" id="bgFade"></div>
-            <div class="mobileNav_in">
-                <div class="navLink-wrap">
-                    <div class="navLink">
-                        <a href="#about" class="closeNav">About</a>
-                    </div>
-                    <div class="navLink">
-                        <a href="#services" class="closeNav">Services</a>
-                    </div>
-                    <div class="navLink">
-                        <a href="#industries" class="closeNav">Industries</a>
-                    </div>
-                    <div class="navLink">
-                        <a href="#why-us" class="closeNav">Why Us</a>
-                    </div>
-                </div>
+      <div class="mobileNav_container" id="mobileNav-container">
+        <div class="fade" id="bgFade"></div>
+        <div class="mobileNav_in">
+          <div class="navLink-wrap">
+            <div class="navLink">
+              <a href="#about" class="closeNav">About</a>
             </div>
+            <div class="navLink">
+              <a href="#services" class="closeNav">Services</a>
+            </div>
+            <div class="navLink">
+              <a href="#industries" class="closeNav">Industries</a>
+            </div>
+            <div class="navLink">
+              <a href="#why-us" class="closeNav">Why Us</a>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
-    
-
-
     <main>
-        <!-- HERO SECTION -->
-        <section class="hero">
-            <div class="container_fluid">
-                <div class="hero-in">
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container_fluid">
+          <div class="hero-in">
+            <!-- Left Content -->
+            <div class="hero-content">
+              <span class="hero-eyebrow pill light"
+                >Hospitality Procurement</span
+              >
 
-                    <!-- Left Content -->
-                    <div class="hero-content">
-                        <span class="hero-eyebrow pill light">Hospitality Procurement</span>
+              <h1 class="hero-heading">
+                One Partner.<br />
+                <em>Every Need.</em><br />
+                Delivered.
+              </h1>
 
-                        <h1 class="hero-heading">
-                            One Partner.<br>
-                            <em>Every Need.</em><br>
-                            Delivered.
-                        </h1>
+              <p class="hero-subtext">
+                Comprehensive procurement and sourcing solutions for hotels,
+                resorts, restaurants, and hospitality businesses — from setup to
+                daily operations.
+              </p>
 
-                        <p class="hero-subtext">
-                            Comprehensive procurement and sourcing solutions for hotels, resorts, restaurants, and hospitality businesses — from setup to daily operations.
-                        </p>
+              <div class="hero-cta-wrap">
+                <a href="#contact" class="custom_button solid">Get a Quote</a>
+                <a href="#services" class="custom_button outline"
+                  >Our Services</a
+                >
+              </div>
+            </div>
 
-                        <div class="hero-cta-wrap">
-                            <a href="#contact" class="custom_button solid">Get a Quote</a>
-                            <a href="#services" class="custom_button outline">Our Services</a>
-                        </div>
-                    </div>
-
-                    <!-- Right Image -->
-                    <!-- <div class="hero-image-wrap">
+            <!-- Right Image -->
+            <!-- <div class="hero-image-wrap">
                         <div class="hero-image-inner">
                             <img src="Assets/hero-image.jpg" alt="Grand Alliance Procurement — Hospitality">
                         </div>
                     </div> -->
-                    <!-- Banner Video BG -->
-                    <div class="video-bg-wrap">
-                        <video autoplay muted loop playsinline preload="metadata" >
-                            <source src="Assets/Home-HeroBanner.mp4" type="video/mp4">
-                        </video>
-                    </div>
+            <!-- Banner Video BG -->
+            <div class="video-bg-wrap">
+              <video autoplay muted loop playsinline preload="metadata">
+                <source src="Assets/Home-HeroBanner.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- <div class="spacer spacer-50"></div> -->
+
+      <!-- STATS SECTION -->
+      <section class="stats_section">
+        <div class="container_fluid">
+          <div class="stats_section_in">
+            <p class="hero-stats-heading">Delivering at scale, across India</p>
+
+            <div class="stats-wrap-in">
+              <div class="hero-stat-item">
+                <span class="stat-num">500+</span>
+                <span class="stat-label">Trusted Vendors</span>
+              </div>
+
+              <div class="hero-stats-divider">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 256 256"
+                  width="100%"
+                  height="100%"
+                  preserveAspectRatio="xMidYMid meet"
+                  fill="none"
+                >
+                  <path
+                    d="M 152 70.059 L 201.539 20.519 L 235.48 54.461 L 185.941 104 L 256 104 L 256 152 L 185.941 152 L 235.48 201.539 L 201.539 235.48 L 152 185.941 L 152 256 L 104 256 L 104 185.941 L 54.46 235.48 L 20.52 201.539 L 70.059 152 L 0 152 L 0 104 L 70.059 104 L 20.519 54.46 L 54.461 20.52 L 104 70.059 L 104 0 L 152 0 Z"
+                    fill="var(--color-light-green)"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="hero-stat-item">
+                <span class="stat-num">8+</span>
+                <span class="stat-label">Industries Served</span>
+              </div>
+
+              <div class="hero-stats-divider">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 256 256"
+                  width="100%"
+                  height="100%"
+                  preserveAspectRatio="xMidYMid meet"
+                  fill="none"
+                >
+                  <path
+                    d="M 152 70.059 L 201.539 20.519 L 235.48 54.461 L 185.941 104 L 256 104 L 256 152 L 185.941 152 L 235.48 201.539 L 201.539 235.48 L 152 185.941 L 152 256 L 104 256 L 104 185.941 L 54.46 235.48 L 20.52 201.539 L 70.059 152 L 0 152 L 0 104 L 70.059 104 L 20.519 54.46 L 54.461 20.52 L 104 70.059 L 104 0 L 152 0 Z"
+                    fill="var(--color-light-green)"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="hero-stat-item">
+                <span class="stat-num">1</span>
+                <span class="stat-label">End-to-End Partner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer spacer-50"></div>
+
+      <!-- ABOUT SECTION -->
+      <section class="about" id="about">
+        <div class="container_fluid">
+          <div class="about-in">
+            <!-- Left Content -->
+            <div class="about-content">
+              <div class="about-head-content">
+                <span class="pill outline-green">Who We Are</span>
+
+                <div class="section_head dark">
+                  <h2 class="section_head_title about-heading">
+                    The Procurement Partner Built for <em>Hospitality</em>
+                  </h2>
+
+                  <div class="section_head_descWrap">
+                    <p class="para-desc">
+                      Grand Alliance Procurement is a leading hospitality
+                      procurement and sourcing company providing comprehensive
+                      solutions for hotels, resorts, restaurants, and
+                      hospitality projects across India.
+                    </p>
+
+                    <p class="para-desc">
+                      We specialize in sourcing and supplying everything
+                      required for the successful operation of a hospitality
+                      business — from hotel construction and setup requirements
+                      to daily operational supplies.
+                    </p>
+                  </div>
                 </div>
+              </div>
+
+              <!-- 3 Pillars -->
+              <div class="about-pillars">
+                <div class="about-pillar-item">
+                  <div class="pillar-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"
+                      />
+                      <path d="m7.5 4.27 9 5.15" />
+                      <polyline points="3.29 7 12 12 20.71 7" />
+                      <line x1="12" y1="22" x2="12" y2="12" />
+                      <circle cx="18.5" cy="15.5" r="2.5" />
+                      <path d="M20.27 17.27 22 19" />
+                    </svg>
+                  </div>
+                  <div class="pillar-text">
+                    <span class="pillar-title">One-Stop Procurement</span>
+                    <span class="pillar-desc"
+                      >Every category under one roof — no juggling multiple
+                      vendors.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="about-pillar-item">
+                  <div class="pillar-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                  </div>
+                  <div class="pillar-text">
+                    <span class="pillar-title">Reliable Vendor Network</span>
+                    <span class="pillar-desc"
+                      >Years of trusted relationships with quality-verified
+                      suppliers.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="about-pillar-item">
+                  <div class="pillar-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <div class="pillar-text">
+                    <span class="pillar-title">Quality Assured</span>
+                    <span class="pillar-desc"
+                      >Every product sourced meets the standard your guests
+                      expect.</span
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
 
-        </section>
-
-        <!-- <div class="spacer spacer-50"></div> -->
-        
-        <!-- STATS SECTION -->
-        <section class="stats_section">
-            <div class="container_fluid">
-
-                <div class="stats_section_in">
-
-                    <p class="hero-stats-heading">Delivering at scale, across India</p>
-
-                    <div class="stats-wrap-in">
-                        <div class="hero-stat-item">
-                            <span class="stat-num">500+</span>
-                            <span class="stat-label">Trusted Vendors</span>
-                        </div>
-
-                        <div class="hero-stats-divider">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" fill="none"><path d="M 152 70.059 L 201.539 20.519 L 235.48 54.461 L 185.941 104 L 256 104 L 256 152 L 185.941 152 L 235.48 201.539 L 201.539 235.48 L 152 185.941 L 152 256 L 104 256 L 104 185.941 L 54.46 235.48 L 20.52 201.539 L 70.059 152 L 0 152 L 0 104 L 70.059 104 L 20.519 54.46 L 54.461 20.52 L 104 70.059 L 104 0 L 152 0 Z" fill="var(--color-light-green)"></path></svg>
-                        </div>
-
-                        <div class="hero-stat-item">
-                            <span class="stat-num">8+</span>
-                            <span class="stat-label">Industries Served</span>
-                        </div>
-
-                        <div class="hero-stats-divider">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" fill="none"><path d="M 152 70.059 L 201.539 20.519 L 235.48 54.461 L 185.941 104 L 256 104 L 256 152 L 185.941 152 L 235.48 201.539 L 201.539 235.48 L 152 185.941 L 152 256 L 104 256 L 104 185.941 L 54.46 235.48 L 20.52 201.539 L 70.059 152 L 0 152 L 0 104 L 70.059 104 L 20.519 54.46 L 54.461 20.52 L 104 70.059 L 104 0 L 152 0 Z" fill="var(--color-light-green)"></path></svg>
-                        </div>
-
-                        <div class="hero-stat-item">
-                            <span class="stat-num">1</span>
-                            <span class="stat-label">End-to-End Partner</span>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <div class="spacer spacer-50"></div>
-
-        <!-- ABOUT SECTION -->
-        <section class="about" id="about">
-            <div class="container_fluid">
-                <div class="about-in">
-
-                    <!-- Left Content -->
-                    <div class="about-content">
-
-                        <div class="about-head-content">
-                            <span class="pill outline-green">Who We Are</span>
-
-                            <div class="section_head dark">
-                                <h2 class="section_head_title about-heading">
-                                    The Procurement Partner
-                                    Built for <em>Hospitality</em>
-                                </h2>
-
-                                <div class="section_head_descWrap">
-                                    <p class="para-desc">
-                                        Grand Alliance Procurement is a leading hospitality procurement and sourcing company providing comprehensive solutions for hotels, resorts, restaurants, and hospitality projects across India.
-                                    </p>
-
-                                    <p class="para-desc">
-                                        We specialize in sourcing and supplying everything required for the successful operation of a hospitality business — from hotel construction and setup requirements to daily operational supplies.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- 3 Pillars -->
-                        <div class="about-pillars">
-
-                            <div class="about-pillar-item">
-                                <div class="pillar-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"/>
-                                        <path d="m7.5 4.27 9 5.15"/><polyline points="3.29 7 12 12 20.71 7"/>
-                                        <line x1="12" y1="22" x2="12" y2="12"/>
-                                        <circle cx="18.5" cy="15.5" r="2.5"/><path d="M20.27 17.27 22 19"/>
-                                    </svg>
-                                </div>
-                                <div class="pillar-text">
-                                    <span class="pillar-title">One-Stop Procurement</span>
-                                    <span class="pillar-desc">Every category under one roof — no juggling multiple vendors.</span>
-                                </div>
-                            </div>
-
-                            <div class="about-pillar-item">
-                                <div class="pillar-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                                        <circle cx="9" cy="7" r="4"/>
-                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                                    </svg>
-                                </div>
-                                <div class="pillar-text">
-                                    <span class="pillar-title">Reliable Vendor Network</span>
-                                    <span class="pillar-desc">Years of trusted relationships with quality-verified suppliers.</span>
-                                </div>
-                            </div>
-
-                            <div class="about-pillar-item">
-                                <div class="pillar-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="20 6 9 17 4 12"/>
-                                    </svg>
-                                </div>
-                                <div class="pillar-text">
-                                    <span class="pillar-title">Quality Assured</span>
-                                    <span class="pillar-desc">Every product sourced meets the standard your guests expect.</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Right Image -->
-                    <!-- <div class="about-image-wrap">
+            <!-- Right Image -->
+            <!-- <div class="about-image-wrap">
                         <div class="about-image-inner">
                             <img src="Images/about-image.jpg" alt="Grand Alliance Procurement Operations">
                         </div>
@@ -261,529 +333,771 @@
                             <span class="tag-text">Years of procurement expertise</span>
                         </div>
                     </div> -->
+          </div>
+        </div>
+      </section>
 
+      <div class="spacer spacer-100"></div>
+
+      <!-- SERVICES SECTION -->
+      <section class="services" id="services">
+        <div class="container_fluid">
+          <div class="service-sec-in">
+            <!-- Section Header -->
+            <div class="services-header">
+              <span class="pill green">What We Offer</span>
+              <div class="section_head dark flex">
+                <h2 class="section_head_title services-heading">
+                  Complete Procurement, <br /><em>One Roof.</em>
+                </h2>
+
+                <div class="section_head_descWrap">
+                  <p class="para-desc">
+                    From kitchen ingredients to luxury furnishings — if a hotel
+                    needs it, we source it. No multiple vendors, no coordination
+                    headaches.
+                  </p>
                 </div>
-            </div>
-        </section>
-
-        <div class="spacer spacer-100"></div>
-
-        <!-- SERVICES SECTION -->
-        <section class="services" id="services">
-            <div class="container_fluid">
-
-                <div class="service-sec-in">
-                    <!-- Section Header -->
-                    <div class="services-header">
-                        <span class="pill green">What We Offer</span>
-                        <div class="section_head dark flex">
-                            <h2 class="section_head_title services-heading">
-                                Complete Procurement, <br><em>One Roof.</em>
-                            </h2>
-
-                            <div class="section_head_descWrap">
-                                <p class="para-desc">
-                                    From kitchen ingredients to luxury furnishings — if a hotel needs it, we source it. No multiple vendors, no coordination headaches.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tabs Wrapper -->
-                    <div class="services-tabs-wrap">
-
-                        <!-- Tab List -->
-                        <div class="services-tab-list">
-
-                            <div class="tab-item active" data-tab="fnb">
-                                <div class="tab-num">01</div>
-                                <div class="tab-info">
-                                    <span class="tab-title">Food & Beverage</span>
-                                    <span class="tab-sub">Sourcing fresh & dry ingredients</span>
-                                </div>
-                                <div class="tab-arrow">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                                    </svg>
-                                </div>
-                            </div>
-
-                            <div class="tab-item" data-tab="ose">
-                                <div class="tab-num">02</div>
-                                <div class="tab-info">
-                                    <span class="tab-title">Hotel OS&E</span>
-                                    <span class="tab-sub">Operational supplies & equipment</span>
-                                </div>
-                                <div class="tab-arrow">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                                    </svg>
-                                </div>
-                            </div>
-
-                            <div class="tab-item" data-tab="ffe">
-                                <div class="tab-num">03</div>
-                                <div class="tab-info">
-                                    <span class="tab-title">FF&E</span>
-                                    <span class="tab-sub">Furniture, fixtures & equipment</span>
-                                </div>
-                                <div class="tab-arrow">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                                    </svg>
-                                </div>
-                            </div>
-
-                            <div class="tab-item" data-tab="strategic">
-                                <div class="tab-num">04</div>
-                                <div class="tab-info">
-                                    <span class="tab-title">Strategic Procurement</span>
-                                    <span class="tab-sub">Vendor management & cost control</span>
-                                </div>
-                                <div class="tab-arrow">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                                    </svg>
-                                </div>
-                            </div>
-
-                            <!-- Active indicator line -->
-                            <div class="tab-indicator"></div>
-                        </div>
-
-                        <!-- Tab Content Panels -->
-                        <div class="services-tab-content">
-
-                            <!-- F&B -->
-                            <div class="tab-panel active" data-panel="fnb">
-                                <div class="panel-in">
-                                    <div class="panel-text">
-                                        <h3 class="panel-heading">Food & Beverage Procurement</h3>
-                                        <p class="panel-desc">We source and supply the complete range of F&B ingredients your kitchen demands — from everyday staples to specialty imports, always fresh, always on time.</p>
-                                        <ul class="panel-list">
-                                            <li>Spices & seasonings</li>
-                                            <li>Dry groceries & staples</li>
-                                            <li>Fresh fruits & vegetables</li>
-                                            <li>Dairy, meat & seafood</li>
-                                            <li>Beverages & bakery ingredients</li>
-                                            <li>Specialty & imported food products</li>
-                                        </ul>
-                                    </div>
-                                    <div class="panel-image">
-                                        <img src="Assets/Service-1.jpg" alt="Food and Beverage Procurement">
-                                        <div class="panel-image-tag">F&B</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- OS&E -->
-                            <div class="tab-panel" data-panel="ose">
-                                <div class="panel-in">
-                                    <div class="panel-text">
-                                        <h3 class="panel-heading">Hotel Operational Supplies</h3>
-                                        <p class="panel-desc">Everything your housekeeping, front office, and kitchen teams need to run a flawless operation — sourced, verified, and delivered to your door.</p>
-                                        <ul class="panel-list">
-                                            <li>Hotel amenities & toiletries</li>
-                                            <li>Housekeeping supplies</li>
-                                            <li>Cleaning chemicals</li>
-                                            <li>Linen, towels & bedding</li>
-                                            <li>Uniforms & guest room accessories</li>
-                                            <li>Kitchen utensils & equipment</li>
-                                        </ul>
-                                    </div>
-                                    <div class="panel-image">
-                                        <img src="Assets/service-2.jpg" alt="Hotel Operational Supplies">
-                                        <div class="panel-image-tag">OS&E</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- FF&E -->
-                            <div class="tab-panel" data-panel="ffe">
-                                <div class="panel-in">
-                                    <div class="panel-text">
-                                        <h3 class="panel-heading">Furniture, Fixtures & Equipment</h3>
-                                        <p class="panel-desc">From lobby furniture to restaurant lighting — we help you build spaces that guests remember, with sourcing that stays within budget and on schedule.</p>
-                                        <ul class="panel-list">
-                                            <li>Hotel & restaurant furniture</li>
-                                            <li>Lighting solutions</li>
-                                            <li>Decorative & interior items</li>
-                                            <li>Interior furnishings</li>
-                                            <li>Outdoor furniture</li>
-                                        </ul>
-                                    </div>
-                                    <div class="panel-image">
-                                        <img src="Assets/service-3.jpg" alt="Furniture Fixtures and Equipment">
-                                        <div class="panel-image-tag">FF&E</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Strategic -->
-                            <div class="tab-panel" data-panel="strategic">
-                                <div class="panel-in">
-                                    <div class="panel-text">
-                                        <h3 class="panel-heading">Strategic Procurement</h3>
-                                        <p class="panel-desc">Beyond sourcing — we manage your entire procurement lifecycle. Vendor relationships, contract negotiations, cost optimisation, and supply chain visibility.</p>
-                                        <ul class="panel-list">
-                                            <li>Vendor sourcing & management</li>
-                                            <li>Cost optimisation</li>
-                                            <li>Contract negotiation</li>
-                                            <li>Supply chain management</li>
-                                            <li>End-to-end project procurement</li>
-                                        </ul>
-                                    </div>
-                                    <div class="panel-image">
-                                        <img src="Assets/service-4.jpg" alt="Strategic Procurement">
-                                        <div class="panel-image-tag">Strategic</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
-        </section>
-
-
-        <!-- INDUSTRIES SECTION -->
-        <section class="industries" id="industries">
-            <div class="container_fluid">
-
-                <!-- Section Header -->
-                <div class="industries-header">
-                    <span class="pill light">Who We Serve</span>
-                    <div class="section_head light center">
-                        <h2 class="section_head_title industries-heading">
-                            Industries We <em>Power</em>
-                        </h2>
-
-                        <div class="section_head_descWrap">
-                            <p class="para-desc">
-                                Whether you run a boutique hotel or a large resort chain — our procurement expertise adapts to your scale, your category, and your timeline.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
 
-            <div class="marquee-wrap-contain">
-                <!-- Marquee Row 1 — Left to Right -->
-                <div class="marquee-wrap">
-                    <div class="marquee-track track-ltr">
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Luxury Hotels</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Resorts & Villas</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M3 11l19-9-9 19-2-8-8-2z"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Restaurants & Cafes</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Banquet Halls</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Clubs & Lounges</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Hospitals</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Corporate Guest Houses</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Serviced Apartments</span>
-                            </div>
-                        </div>
-
-                        <!-- Duplicate for seamless loop -->
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Luxury Hotels</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Resorts & Villas</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M3 11l19-9-9 19-2-8-8-2z"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Restaurants & Cafes</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Banquet Halls</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Clubs & Lounges</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Hospitals</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Corporate Guest Houses</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card">
-                                <div class="industry-card-icon">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-                                    </svg>
-                                </div>
-                                <span class="industry-card-label">Serviced Apartments</span>
-                            </div>
-                        </div>
-
-                    </div>
+            <!-- Tabs Wrapper -->
+            <div class="services-tabs-wrap">
+              <!-- Tab List -->
+              <div class="services-tab-list">
+                <div class="tab-item active" data-tab="fnb">
+                  <div class="tab-num">01</div>
+                  <div class="tab-info">
+                    <span class="tab-title">Food & Beverage</span>
+                    <span class="tab-sub"
+                      >Sourcing fresh & dry ingredients</span
+                    >
+                  </div>
+                  <div class="tab-arrow">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </div>
 
-                <!-- Marquee Row 2 — Right to Left -->
-                <div class="marquee-wrap">
-                    <div class="marquee-track track-rtl">
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">End-to-End Procurement</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Vendor Management</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Cost Optimisation</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Quality Assurance</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Timely Delivery</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Supply Chain Management</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Contract Negotiation</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Skilled Manpower</span>
-                            </div>
-                        </div>
-
-                        <!-- Duplicate -->
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">End-to-End Procurement</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Vendor Management</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Cost Optimisation</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Quality Assurance</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Timely Delivery</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Supply Chain Management</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Contract Negotiation</span>
-                            </div>
-                        </div>
-
-                        <div class="marquee-item">
-                            <div class="industry-card card-outlined">
-                                <span class="industry-card-label">Skilled Manpower</span>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="tab-item" data-tab="ose">
+                  <div class="tab-num">02</div>
+                  <div class="tab-info">
+                    <span class="tab-title">Hotel OS&E</span>
+                    <span class="tab-sub"
+                      >Operational supplies & equipment</span
+                    >
+                  </div>
+                  <div class="tab-arrow">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </div>
+
+                <div class="tab-item" data-tab="ffe">
+                  <div class="tab-num">03</div>
+                  <div class="tab-info">
+                    <span class="tab-title">FF&E</span>
+                    <span class="tab-sub">Furniture, fixtures & equipment</span>
+                  </div>
+                  <div class="tab-arrow">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="tab-item" data-tab="strategic">
+                  <div class="tab-num">04</div>
+                  <div class="tab-info">
+                    <span class="tab-title">Strategic Procurement</span>
+                    <span class="tab-sub"
+                      >Vendor management & cost control</span
+                    >
+                  </div>
+                  <div class="tab-arrow">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+
+                <!-- Active indicator line -->
+                <div class="tab-indicator"></div>
+              </div>
+
+              <!-- Tab Content Panels -->
+              <div class="services-tab-content">
+                <!-- F&B -->
+                <div class="tab-panel active" data-panel="fnb">
+                  <div class="panel-in">
+                    <div class="panel-text">
+                      <h3 class="panel-heading">Food & Beverage Procurement</h3>
+                      <p class="panel-desc">
+                        We source and supply the complete range of F&B
+                        ingredients your kitchen demands — from everyday staples
+                        to specialty imports, always fresh, always on time.
+                      </p>
+                      <ul class="panel-list">
+                        <li>Spices & seasonings</li>
+                        <li>Dry groceries & staples</li>
+                        <li>Fresh fruits & vegetables</li>
+                        <li>Dairy, meat & seafood</li>
+                        <li>Beverages & bakery ingredients</li>
+                        <li>Specialty & imported food products</li>
+                      </ul>
+                    </div>
+                    <div class="panel-image">
+                      <img
+                        src="Assets/Service-1.jpg"
+                        alt="Food and Beverage Procurement"
+                      />
+                      <div class="panel-image-tag">F&B</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- OS&E -->
+                <div class="tab-panel" data-panel="ose">
+                  <div class="panel-in">
+                    <div class="panel-text">
+                      <h3 class="panel-heading">Hotel Operational Supplies</h3>
+                      <p class="panel-desc">
+                        Everything your housekeeping, front office, and kitchen
+                        teams need to run a flawless operation — sourced,
+                        verified, and delivered to your door.
+                      </p>
+                      <ul class="panel-list">
+                        <li>Hotel amenities & toiletries</li>
+                        <li>Housekeeping supplies</li>
+                        <li>Cleaning chemicals</li>
+                        <li>Linen, towels & bedding</li>
+                        <li>Uniforms & guest room accessories</li>
+                        <li>Kitchen utensils & equipment</li>
+                      </ul>
+                    </div>
+                    <div class="panel-image">
+                      <img
+                        src="Assets/service-2.jpg"
+                        alt="Hotel Operational Supplies"
+                      />
+                      <div class="panel-image-tag">OS&E</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FF&E -->
+                <div class="tab-panel" data-panel="ffe">
+                  <div class="panel-in">
+                    <div class="panel-text">
+                      <h3 class="panel-heading">
+                        Furniture, Fixtures & Equipment
+                      </h3>
+                      <p class="panel-desc">
+                        From lobby furniture to restaurant lighting — we help
+                        you build spaces that guests remember, with sourcing
+                        that stays within budget and on schedule.
+                      </p>
+                      <ul class="panel-list">
+                        <li>Hotel & restaurant furniture</li>
+                        <li>Lighting solutions</li>
+                        <li>Decorative & interior items</li>
+                        <li>Interior furnishings</li>
+                        <li>Outdoor furniture</li>
+                      </ul>
+                    </div>
+                    <div class="panel-image">
+                      <img
+                        src="Assets/service-3.jpg"
+                        alt="Furniture Fixtures and Equipment"
+                      />
+                      <div class="panel-image-tag">FF&E</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Strategic -->
+                <div class="tab-panel" data-panel="strategic">
+                  <div class="panel-in">
+                    <div class="panel-text">
+                      <h3 class="panel-heading">Strategic Procurement</h3>
+                      <p class="panel-desc">
+                        Beyond sourcing — we manage your entire procurement
+                        lifecycle. Vendor relationships, contract negotiations,
+                        cost optimisation, and supply chain visibility.
+                      </p>
+                      <ul class="panel-list">
+                        <li>Vendor sourcing & management</li>
+                        <li>Cost optimisation</li>
+                        <li>Contract negotiation</li>
+                        <li>Supply chain management</li>
+                        <li>End-to-end project procurement</li>
+                      </ul>
+                    </div>
+                    <div class="panel-image">
+                      <img
+                        src="Assets/service-4.jpg"
+                        alt="Strategic Procurement"
+                      />
+                      <div class="panel-image-tag">Strategic</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <!-- INDUSTRIES SECTION -->
+      <section class="industries" id="industries">
+        <div class="container_fluid">
+          <!-- Section Header -->
+          <div class="industries-header">
+            <span class="pill light">Who We Serve</span>
+            <div class="section_head light center">
+              <h2 class="section_head_title industries-heading">
+                Industries We <em>Power</em>
+              </h2>
 
-        <!-- WHY US SECTION -->
-        <section class="why-us" id="why-us">
+              <div class="section_head_descWrap">
+                <p class="para-desc">
+                  Whether you run a boutique hotel or a large resort chain — our
+                  procurement expertise adapts to your scale, your category, and
+                  your timeline.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <div class="why-us-pin-wrap">
-                <div class="container_fluid">
-                    <!-- Left Panel — Fixed -->
-                    <div class="why-us-left">
-                        <span class="pill green">Our Advantage</span>
-                        <div class="section_head dark">
-                            <h2 class="section_head_title why-us-heading">
-                                Why Leaders <br> <em>Choose Us</em>
-                            </h2>
+        <div class="marquee-wrap-contain">
+          <!-- Marquee Row 1 — Left to Right -->
+          <div class="marquee-wrap">
+            <div class="marquee-track track-ltr">
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      />
+                      <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Luxury Hotels</span>
+                </div>
+              </div>
 
-                            <div class="section_head_descWrap">
-                                <p class="para-desc">
-                                    One partner. Every category. Zero coordination headaches.
-                                </p>
-                            </div>
-                        </div>
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Resorts & Villas</span>
+                </div>
+              </div>
 
-                        <!-- <div class="why-us-promise">
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M3 11l19-9-9 19-2-8-8-2z" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Restaurants & Cafes</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="2" y="7" width="20" height="14" rx="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Banquet Halls</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"
+                      />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Clubs & Lounges</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Hospitals</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="2" y="3" width="20" height="14" rx="2" />
+                      <path d="M8 21h8M12 17v4" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label"
+                    >Corporate Guest Houses</span
+                  >
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      />
+                      <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Serviced Apartments</span>
+                </div>
+              </div>
+
+              <!-- Duplicate for seamless loop -->
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      />
+                      <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Luxury Hotels</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Resorts & Villas</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M3 11l19-9-9 19-2-8-8-2z" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Restaurants & Cafes</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="2" y="7" width="20" height="14" rx="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Banquet Halls</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"
+                      />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Clubs & Lounges</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Hospitals</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="2" y="3" width="20" height="14" rx="2" />
+                      <path d="M8 21h8M12 17v4" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label"
+                    >Corporate Guest Houses</span
+                  >
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card">
+                  <div class="industry-card-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      />
+                      <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                  </div>
+                  <span class="industry-card-label">Serviced Apartments</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Marquee Row 2 — Right to Left -->
+          <div class="marquee-wrap">
+            <div class="marquee-track track-rtl">
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label"
+                    >End-to-End Procurement</span
+                  >
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Vendor Management</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Cost Optimisation</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Quality Assurance</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Timely Delivery</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label"
+                    >Supply Chain Management</span
+                  >
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Contract Negotiation</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Skilled Manpower</span>
+                </div>
+              </div>
+
+              <!-- Duplicate -->
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label"
+                    >End-to-End Procurement</span
+                  >
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Vendor Management</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Cost Optimisation</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Quality Assurance</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Timely Delivery</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label"
+                    >Supply Chain Management</span
+                  >
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Contract Negotiation</span>
+                </div>
+              </div>
+
+              <div class="marquee-item">
+                <div class="industry-card card-outlined">
+                  <span class="industry-card-label">Skilled Manpower</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY US SECTION -->
+      <section class="why-us" id="why-us">
+        <div class="why-us-pin-wrap">
+          <div class="container_fluid">
+            <!-- Left Panel — Fixed -->
+            <div class="why-us-left">
+              <span class="pill green">Our Advantage</span>
+              <div class="section_head dark">
+                <h2 class="section_head_title why-us-heading">
+                  Why Leaders <br />
+                  <em>Choose Us</em>
+                </h2>
+
+                <div class="section_head_descWrap">
+                  <p class="para-desc">
+                    One partner. Every category. Zero coordination headaches.
+                  </p>
+                </div>
+              </div>
+
+              <!-- <div class="why-us-promise">
                             <div class="promise-quote-mark">"</div>
                             <p class="promise-text">
                                 If a hotel needs it, Grand Alliance Procurement can source it.
@@ -791,8 +1105,8 @@
                             <span class="promise-attr">— Our Promise</span>
                         </div> -->
 
-                        <!-- Progress -->
-                        <!-- <div class="why-us-progress-wrap">
+              <!-- Progress -->
+              <!-- <div class="why-us-progress-wrap">
                             <div class="why-us-progress-bar">
                                 <div class="why-us-progress-fill"></div>
                             </div>
@@ -802,410 +1116,703 @@
                                 <span class="progress-total">07</span>
                             </span>
                         </div> -->
-                    </div>
+            </div>
+          </div>
+          <!-- Right Panel — Horizontal Scroll Track -->
+          <div class="why-us-right">
+            <div class="why-cards-track">
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">01</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"
+                      />
+                      <path d="m7.5 4.27 9 5.15" />
+                      <polyline points="3.29 7 12 12 20.71 7" />
+                      <line x1="12" y1="22" x2="12" y2="12" />
+                      <circle cx="18.5" cy="15.5" r="2.5" />
+                      <path d="M20.27 17.27 22 19" />
+                    </svg>
+                  </div>
                 </div>
-                <!-- Right Panel — Horizontal Scroll Track -->
-                    <div class="why-us-right">
-                        <div class="why-cards-track">
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">
+                    Complete Procurement Under One Roof
+                  </h3>
+                  <p class="why-card-desc">
+                    Every category — F&B, OS&E, FF&E, and strategic — handled by
+                    a single trusted partner. No juggling vendors.
+                  </p>
+                  <div class="why-card-tag">One-Stop</div>
+                </div>
+              </div>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">01</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"/>
-                                            <path d="m7.5 4.27 9 5.15"/><polyline points="3.29 7 12 12 20.71 7"/>
-                                            <line x1="12" y1="22" x2="12" y2="12"/>
-                                            <circle cx="18.5" cy="15.5" r="2.5"/>
-                                            <path d="M20.27 17.27 22 19"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">Complete Procurement Under One Roof</h3>
-                                    <p class="why-card-desc">Every category — F&B, OS&E, FF&E, and strategic — handled by a single trusted partner. No juggling vendors.</p>
-                                    <div class="why-card-tag">One-Stop</div>
-                                </div>
-                            </div>
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">02</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">Reliable Vendor Network</h3>
+                  <p class="why-card-desc">
+                    Years of verified supplier relationships across India's
+                    hospitality industry — quality assured at every level.
+                  </p>
+                  <div class="why-card-tag">Trusted</div>
+                </div>
+              </div>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">02</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
-                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">Reliable Vendor Network</h3>
-                                    <p class="why-card-desc">Years of verified supplier relationships across India's hospitality industry — quality assured at every level.</p>
-                                    <div class="why-card-tag">Trusted</div>
-                                </div>
-                            </div>
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">03</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="12" y1="1" x2="12" y2="23" />
+                      <path
+                        d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">Competitive Pricing</h3>
+                  <p class="why-card-desc">
+                    Strategic sourcing and volume leverage means better rates
+                    passed directly to you — every order, every time.
+                  </p>
+                  <div class="why-card-tag">Cost Efficient</div>
+                </div>
+              </div>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">03</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">Competitive Pricing</h3>
-                                    <p class="why-card-desc">Strategic sourcing and volume leverage means better rates passed directly to you — every order, every time.</p>
-                                    <div class="why-card-tag">Cost Efficient</div>
-                                </div>
-                            </div>
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">04</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">Quality Assurance</h3>
+                  <p class="why-card-desc">
+                    Every product is sourced, inspected, and verified before it
+                    reaches your property. No compromises on standards.
+                  </p>
+                  <div class="why-card-tag">Verified</div>
+                </div>
+              </div>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">04</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">Quality Assurance</h3>
-                                    <p class="why-card-desc">Every product is sourced, inspected, and verified before it reaches your property. No compromises on standards.</p>
-                                    <div class="why-card-tag">Verified</div>
-                                </div>
-                            </div>
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">05</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="1" y="3" width="15" height="13" />
+                      <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                      <circle cx="5.5" cy="18.5" r="2.5" />
+                      <circle cx="18.5" cy="18.5" r="2.5" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">Timely Delivery</h3>
+                  <p class="why-card-desc">
+                    No delays, no excuses. Your operations stay running smoothly
+                    with reliable, on-schedule procurement delivery.
+                  </p>
+                  <div class="why-card-tag">On-Time</div>
+                </div>
+              </div>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">05</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
-                                            <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">Timely Delivery</h3>
-                                    <p class="why-card-desc">No delays, no excuses. Your operations stay running smoothly with reliable, on-schedule procurement delivery.</p>
-                                    <div class="why-card-tag">On-Time</div>
-                                </div>
-                            </div>
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">06</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">Skilled Manpower Support</h3>
+                  <p class="why-card-desc">
+                    Beyond products — we provide the right people alongside the
+                    right supplies. Full operational support when you need it.
+                  </p>
+                  <div class="why-card-tag">Full Support</div>
+                </div>
+              </div>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">06</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">Skilled Manpower Support</h3>
-                                    <p class="why-card-desc">Beyond products — we provide the right people alongside the right supplies. Full operational support when you need it.</p>
-                                    <div class="why-card-tag">Full Support</div>
-                                </div>
-                            </div>
+              <div class="why-card">
+                <div class="why-card-top">
+                  <div class="why-card-num">07</div>
+                  <div class="why-card-icon">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="why-card-bot">
+                  <h3 class="why-card-title">End-to-End Management</h3>
+                  <p class="why-card-desc">
+                    From planning and vendor selection to final delivery and
+                    reporting — we own the entire procurement lifecycle.
+                  </p>
+                  <div class="why-card-tag">Full Lifecycle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                            <div class="why-card">
-                                <div class="why-card-top">
-                                    <div class="why-card-num">07</div>
-                                    <div class="why-card-icon">
-                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="why-card-bot">
-                                    <h3 class="why-card-title">End-to-End Management</h3>
-                                    <p class="why-card-desc">From planning and vendor selection to final delivery and reporting — we own the entire procurement lifecycle.</p>
-                                    <div class="why-card-tag">Full Lifecycle</div>
-                                </div>
-                            </div>
+      <!-- CONTACT SECTION -->
+      <section class="contact" id="contact">
+        <div class="container_fluid" >
+          <div class="contact-in" style="column-gap: 2rem;">
+            <!-- Left Dark Panel -->
+            <div class="contact-left">
+              <div class="contact-left-content">
+                <span class="pill light">Get In Touch</span>
+                <div class="section_head light">
+                  <h2 class="section_head_title contact-heading">
+                    Let's Talk About <br />
+                    Your <em>Procurement</em> <br />
+                    Needs
+                  </h2>
 
-                        </div>
+                  <div class="section_head_descWrap">
+                    <p class="para-desc">
+                      Tell us what your property needs and we'll put together a
+                      tailored procurement plan. No obligation — just a
+                      conversation.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-details">
+                  <a
+                    href="mailto:dhruv.rawat@grandallianceindia.com"
+                    class="contact-detail-item"
+                  >
+                    <div class="contact-detail-icon">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                        />
+                        <polyline points="22,6 12,13 2,6" />
+                      </svg>
+                    </div>
+                    <div class="contact-detail-text">
+                      <span class="detail-label">Email Us</span>
+                      <span class="detail-value"
+                        >dhruv.rawat@grandallianceindia.com</span
+                      >
+                    </div>
+                  </a>
+
+                  <a href="tel:+919891746771" class="contact-detail-item">
+                    <div class="contact-detail-icon">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.23h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="contact-detail-text">
+                      <span class="detail-label">Call Us</span>
+                      <span class="detail-value">+91 9891746771</span>
+                    </div>
+                  </a>
+
+                  <div class="contact-detail-item">
+                    <div class="contact-detail-icon">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                        />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                    </div>
+                    <div class="contact-detail-text">
+                      <span class="detail-label">Location</span>
+                      <span class="detail-value"
+                        >B-48 Durga Vihar Near Khanpur New Delhi - 110080</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Large decorative text -->
+                <!-- <div class="contact-deco-text">GA</div> -->
+              </div>
+            </div>
+
+            <!-- Right Form Panel -->
+            <div class="contact-right" style="width: 100%; border: 1px solid #596e25; padding: 40px; box-sizing: border-box; border-radius: 8px; background-color: #f9f9f9">
+              <div class="contact-form-wrap" style="width: 100%">
+                <!-- Top Heading -->
+                <div style="margin-bottom: 35px; border-bottom: 1px solid #eaeaea; padding-bottom: 20px">
+                  <h2
+                    style="
+                      margin: 0 0 8px;
+                      font-size: 36px;
+                      font-weight: 600;
+                      line-height: 1.2;
+                      color: #1c1f20;
+                      text-align: center;
+                    "
+                  >
+                    Contact Us
+                  </h2>
+
+                  <p style="margin: 0; font-size: 16px; color: #777; text-align: center">
+                    Send Enquiry
+                  </p>
+                </div>
+
+                <form id="enquiryForm" class="contact-form" style="width: 100%">
+                  <div
+                    class="form-row"
+                    style="
+                      display: grid;
+                      grid-template-columns: repeat(2, minmax(0, 1fr));
+                      column-gap: 24px;
+                      row-gap: 28px;
+                      width: 100%;
+                    "
+                  >
+                    <!-- Name -->
+                    <div class="form-group" style="width: 100%">
+                      <label
+                        class="form-label"
+                        for="name"
+                        style="
+                          display: block;
+                          margin-bottom: 10px;
+                          font-size: 14px;
+                          font-weight: 600;
+                          text-transform: uppercase;
+                        "
+                      >
+                        Your Name
+                      </label>
+
+                      <input
+                        class="form-input"
+                        type="text"
+                        name="name"
+                        placeholder="Rajesh Kumar"
+                        required
+                        style="
+                          width: 100%;
+                          height: 56px;
+                          box-sizing: border-box;
+                        "
+                      />
                     </div>
 
+                    <!-- Company -->
+                    <div class="form-group" style="width: 100%">
+                      <label
+                        class="form-label"
+                        for="company"
+                        style="
+                          display: block;
+                          margin-bottom: 10px;
+                          font-size: 14px;
+                          font-weight: 600;
+                          text-transform: uppercase;
+                        "
+                      >
+                        Company / Property
+                      </label>
+
+                      <input
+                        type="text"
+                        class="form-input"
+                        name="company"
+                        placeholder="Company / Property"
+                        style="
+                          width: 100%;
+                          height: 56px;
+                          box-sizing: border-box;
+                        "
+                      />
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group" style="width: 100%">
+                      <label
+                        class="form-label"
+                        for="email"
+                        style="
+                          display: block;
+                          margin-bottom: 10px;
+                          font-size: 14px;
+                          font-weight: 600;
+                          text-transform: uppercase;
+                        "
+                      >
+                        Email Address
+                      </label>
+
+                      <input
+                        type="email"
+                        class="form-input"
+                        name="email"
+                        placeholder="Email Address"
+                        required
+                        style="
+                          width: 100%;
+                          height: 56px;
+                          box-sizing: border-box;
+                        "
+                      />
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group" style="width: 100%">
+                      <label
+                        class="form-label"
+                        for="phone"
+                        style="
+                          display: block;
+                          margin-bottom: 10px;
+                          font-size: 14px;
+                          font-weight: 600;
+                          text-transform: uppercase;
+                        "
+                      >
+                        Phone Number
+                      </label>
+
+                      <input
+                        class="form-input"
+                        type="tel"
+                        name="phone"
+                        placeholder="Phone Number"
+                        style="
+                          width: 100%;
+                          height: 56px;
+                          box-sizing: border-box;
+                        "
+                      />
+                    </div>
+
+                    <!-- Property Type -->
+                    <div class="form-group" style="width: 100%">
+                      <label
+                        class="form-label"
+                        for="property"
+                        style="
+                          display: block;
+                          margin-bottom: 10px;
+                          font-size: 14px;
+                          font-weight: 600;
+                          text-transform: uppercase;
+                        "
+                      >
+                        Property Type
+                      </label>
+
+                      <div
+                        class="form-select-wrap"
+                        style="position: relative; width: 100%"
+                      >
+                        <select
+                          class="form-input form-select"
+                          id="property"
+                          name="property"
+                          style="
+                            width: 100%;
+                            height: 56px;
+                            box-sizing: border-box;
+                          "
+                        >
+                          <option value="" disabled selected>
+                            Select your property type
+                          </option>
+                          <option value="luxury-hotel">Luxury Hotel</option>
+                          <option value="resort">Resort & Villa</option>
+                          <option value="restaurant">Restaurant & Cafe</option>
+                          <option value="banquet">Banquet Hall</option>
+                          <option value="club">Club & Lounge</option>
+                          <option value="hospital">Hospital</option>
+                          <option value="corporate">
+                            Corporate Guest House
+                          </option>
+                          <option value="serviced">Serviced Apartment</option>
+                          <option value="other">Other</option>
+                        </select>
+
+                        <div
+                          class="select-arrow"
+                          style="
+                            position: absolute;
+                            top: 50%;
+                            right: 20px;
+                            transform: translateY(-50%);
+                            pointer-events: none;
+                          "
+                        >
+                          <!-- Your existing SVG -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Empty space to maintain alignment -->
+
+                    <!-- Message -->
+                    <div class="form-group" style="width: 100%">
+                      <label
+                        class="form-label"
+                        for="message"
+                        style="
+                          display: block;
+                          margin-bottom: 10px;
+                          font-size: 14px;
+                          font-weight: 600;
+                          text-transform: uppercase;
+                        "
+                      >
+                        What do you need help procuring?
+                      </label>
+
+                      <textarea
+                        name="message"
+                        class="form-input form-textarea"
+                        rows="5"
+                        id="message"
+                        placeholder="Tell us about your requirements — F&B supplies, OS&E, FF&E, or all of the above..."
+                        required
+                        style="
+                          width: 100%;
+                          height: 160px;
+                          box-sizing: border-box;
+                        "
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Button -->
+                   <div style="display: flex; justify-content: center; width: 100%">
+
+                       <button
+                       type="submit"
+                       class="contact-submit-btn custom_button"
+                       style="
+                      margin-top: 36px;
+                      width: 313px;
+                      min-height: 56px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 16px;
+                      "
+                  >
+                  <span class="btn-text">Send Enquiry</span>
+                  
+                  <div class="btn-icon">
+                      <!-- Your existing SVG -->
+                    </div>
+                </button>
             </div>
 
-        </section>
-
-        <!-- CONTACT SECTION -->
-        <section class="contact" id="contact">
-            <div class="container_fluid">
-                   <div class="contact-in">
-
-                        <!-- Left Dark Panel -->
-                        <div class="contact-left">
-                            <div class="contact-left-content">
-                                <span class="pill light">Get In Touch</span>
-                                <div class="section_head light">
-                                    <h2 class="section_head_title contact-heading">
-                                        Let's Talk About <br>
-                                        Your <em>Procurement</em> <br>
-                                        Needs
-                                    </h2>
-
-                                    <div class="section_head_descWrap">
-                                        <p class="para-desc">
-                                            Tell us what your property needs and we'll put together a tailored procurement plan. No obligation — just a conversation.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="contact-details">
-
-                                    <a href="mailto:info@grandalliance.com" class="contact-detail-item">
-                                        <div class="contact-detail-icon">
-                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                                <polyline points="22,6 12,13 2,6"/>
-                                            </svg>
-                                        </div>
-                                        <div class="contact-detail-text">
-                                            <span class="detail-label">Email Us</span>
-                                            <span class="detail-value">info@grandalliance.com</span>
-                                        </div>
-                                    </a>
-
-                                    <a href="tel:+91XXXXXXXXXX" class="contact-detail-item">
-                                        <div class="contact-detail-icon">
-                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.23h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                                            </svg>
-                                        </div>
-                                        <div class="contact-detail-text">
-                                            <span class="detail-label">Call Us</span>
-                                            <span class="detail-value">+91 XXXXX XXXXX</span>
-                                        </div>
-                                    </a>
-
-                                    <div class="contact-detail-item">
-                                        <div class="contact-detail-icon">
-                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                                <circle cx="12" cy="10" r="3"/>
-                                            </svg>
-                                        </div>
-                                        <div class="contact-detail-text">
-                                            <span class="detail-label">Location</span>
-                                            <span class="detail-value">India</span>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- Large decorative text -->
-                                <!-- <div class="contact-deco-text">GA</div> -->
-
-                            </div>
-                        </div>
-
-                        <!-- Right Form Panel -->
-                        <div class="contact-right">
-                            <div class="contact-form-wrap">
-
-                                <div class="contact-form-header">
-                                    <h3 class="contact-form-title">Send an Enquiry</h3>
-                                    <p class="contact-form-sub">We typically respond within 24 hours.</p>
-                                </div>
-
-                                <form class="contact-form" id="contactForm">
-
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <label class="form-label" for="name">Your Name</label>
-                                            <input
-                                                class="form-input"
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                placeholder="Rajesh Kumar"
-                                                required
-                                            >
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label" for="company">Company / Property</label>
-                                            <input
-                                                class="form-input"
-                                                type="text"
-                                                id="company"
-                                                name="company"
-                                                placeholder="The Oberoi Mumbai"
-                                                required
-                                            >
-                                        </div>
-                                    </div>
-
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <label class="form-label" for="email">Email Address</label>
-                                            <input
-                                                class="form-input"
-                                                type="email"
-                                                id="email"
-                                                name="email"
-                                                placeholder="you@hotel.com"
-                                                required
-                                            >
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label" for="phone">Phone Number</label>
-                                            <input
-                                                class="form-input"
-                                                type="tel"
-                                                id="phone"
-                                                name="phone"
-                                                placeholder="+91 XXXXX XXXXX"
-                                            >
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label class="form-label" for="property">Property Type</label>
-                                        <div class="form-select-wrap">
-                                            <select class="form-input form-select" id="property" name="property">
-                                                <option value="" disabled selected>Select your property type</option>
-                                                <option value="luxury-hotel">Luxury Hotel</option>
-                                                <option value="resort">Resort & Villa</option>
-                                                <option value="restaurant">Restaurant & Cafe</option>
-                                                <option value="banquet">Banquet Hall</option>
-                                                <option value="club">Club & Lounge</option>
-                                                <option value="hospital">Hospital</option>
-                                                <option value="corporate">Corporate Guest House</option>
-                                                <option value="serviced">Serviced Apartment</option>
-                                                <option value="other">Other</option>
-                                            </select>
-                                            <div class="select-arrow">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <polyline points="6 9 12 15 18 9"/>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label class="form-label" for="message">What do you need help procuring?</label>
-                                        <textarea
-                                            class="form-input form-textarea"
-                                            id="message"
-                                            name="message"
-                                            placeholder="Tell us about your requirements — F&B supplies, OS&E, FF&E, or all of the above..."
-                                            rows="4"
-                                            required
-                                        ></textarea>
-                                    </div>
-
-                                    <button type="submit" class="contact-submit-btn custom_button">
-                                        <span class="btn-text">Send Enquiry</span>
-                                        <div class="btn-icon">
-                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14M12 5l7 7-7 7"/>
-                                            </svg>
-                                        </div>
-                                    </button>
-
-                                </form>
-
-                            </div>
-                        </div>
-
-                    </div> 
+                  <p id="formMessage" style="margin-top: 15px"></p>
+                </form>
+              </div>
             </div>
-            
-        </section>
-
-
+          </div>
+        </div>
+      </section>
     </main>
-
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="container_fluid">
-            <div class="footer-in">
-
-                <!-- Logo + tagline -->
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <img src="Assets/NavLogo-v3-dark.svg" alt="Grand Alliance Procurement">
-                    </div>
-                    <p class="footer-tagline">
-                        Everything Your Hotel Needs, <br>
-                        Delivered Through One Trusted Partner.
-                    </p>
-                </div>
-
-                <!-- Nav Links -->
-                <div class="footer-nav">
-                    <span class="footer-nav-label">Navigation</span>
-                    <ul class="footer-nav-list">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#industries">Industries</a></li>
-                        <li><a href="#why-us">Why Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-
-                <!-- Services Links -->
-                <div class="footer-nav">
-                    <span class="footer-nav-label">Services</span>
-                    <ul class="footer-nav-list">
-                        <li><a href="#services">Food & Beverage</a></li>
-                        <li><a href="#services">Hotel OS&E</a></li>
-                        <li><a href="#services">FF&E</a></li>
-                        <li><a href="#services">Strategic Procurement</a></li>
-                    </ul>
-                </div>
-
-                <!-- Contact Info -->
-                <div class="footer-contact">
-                    <span class="footer-nav-label">Contact</span>
-                    <div class="footer-contact-list">
-                        <a href="mailto:info@grandalliance.com" class="footer-contact-item">
-                            info@grandalliance.com
-                        </a>
-                        <a href="tel:+91XXXXXXXXXX" class="footer-contact-item">
-                            +91 XXXXX XXXXX
-                        </a>
-                        <span class="footer-contact-item">India</span>
-                    </div>
-                </div>
-
+      <div class="container_fluid">
+        <div class="footer-in">
+          <!-- Logo + tagline -->
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img
+                src="Assets/NavLogo-v3-dark.svg"
+                alt="Grand Alliance Procurement"
+              />
             </div>
+            <p class="footer-tagline">
+              Everything Your Hotel Needs, <br />
+              Delivered Through One Trusted Partner.
+            </p>
+          </div>
 
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <span class="footer-copy">
-                    © 2025 Grand Alliance Procurement. All rights reserved.
-                </span>
-                <span class="footer-credit">
-                    Built with precision. Delivered with trust.
-                </span>
+          <!-- Nav Links -->
+          <div class="footer-nav">
+            <span class="footer-nav-label">Navigation</span>
+            <ul class="footer-nav-list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#industries">Industries</a></li>
+              <li><a href="#why-us">Why Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services Links -->
+          <div class="footer-nav">
+            <span class="footer-nav-label">Services</span>
+            <ul class="footer-nav-list">
+              <li><a href="#services">Food & Beverage</a></li>
+              <li><a href="#services">Hotel OS&E</a></li>
+              <li><a href="#services">FF&E</a></li>
+              <li><a href="#services">Strategic Procurement</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-contact">
+            <span class="footer-nav-label">Contact</span>
+            <div class="footer-contact-list">
+              <a
+                href="mailto:dhruv.rawat@grandallianceindia.com"
+                class="footer-contact-item"
+              >
+                dhruv.rawat@grandallianceindia.com
+              </a>
+              <a href="tel:+91XXXXXXXXXX" class="footer-contact-item">
+                +91 9891746771
+              </a>
+              <span class="footer-contact-item"
+                >B-48 Durga Vihar Near Khanpur New Delhi - 110080</span
+              >
             </div>
-
+          </div>
         </div>
+        <!-- Dhruv@1Rawat -->
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <span class="footer-copy">
+            © 2026 Grand Alliance Procurement. All rights reserved.
+          </span>
+          <span class="footer-credit">
+            Built with precision. Delivered with trust.
+          </span>
+        </div>
+      </div>
     </footer>
-    
-    
-    
-    
-    
+
     <!-- =====--- SCRIPT FILES ---===== -->
 
     <!-- LENIS LINK -->
-    <script src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script> 
+    <script src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script>
 
     <!-- GSAP LINK -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js"></script>
 
-
     <script src="Script/script.js"></script>
-    
-</body>
+  </body>
 </html>
