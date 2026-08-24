@@ -364,38 +364,32 @@ document
     const formData = new FormData(form);
 
     try {
-    //   const response = await fetch(
-    //     "https://formsubmit.co/ajax/dhruv.rawat@grandallianceindia.com",
+      //   const response = await fetch(
+      //     "https://formsubmit.co/ajax/dhruv.rawat@grandallianceindia.com",
 
-    //     {
-    //       method: "POST",
+      //     {
+      //       method: "POST",
 
-    //       headers: {
-    //         Accept: "application/json",
-    //       },
+      //       headers: {
+      //         Accept: "application/json",
+      //       },
 
-    //       body: formData,
-    //     },
-    //   );
-    const response = await fetch(
+      //       body: formData,
+      //     },
+      //   );
+      const response = await fetch(
+        "https://formsubmit.co/ajax/0fa8f63b2ea2a5fb20484d67eee8dcd4",
 
-"https://formsubmit.co/ajax/0fa8f63b2ea2a5fb20484d67eee8dcd4",
+        {
+          method: "POST",
 
-{
+          headers: {
+            Accept: "application/json",
+          },
 
-method: "POST",
-
-headers: {
-
-Accept: "application/json"
-
-},
-
-body: formData
-
-}
-
-);
+          body: formData,
+        },
+      );
 
       const result = await response.json();
 
@@ -416,7 +410,7 @@ body: formData
     }
   });
 
-Show;
+// Show;
 
 /* ============------------ CUSTOM JS ---------------================== */
 
